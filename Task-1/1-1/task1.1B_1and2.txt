@@ -1,0 +1,93 @@
+###[ Ethernet ]### 
+  dst       = 02:42:92:15:c3:5d
+  src       = 02:42:0a:09:00:05
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x10
+     len       = 60
+     id        = 29616
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x3aa4
+     src       = 10.9.0.5
+     dst       = 128.230.1.100
+     \options   \
+###[ TCP ]### 
+        sport     = 32768
+        dport     = telnet
+        seq       = 2802219454
+        ack       = 0
+        dataofs   = 10
+        reserved  = 0
+        flags     = S
+        window    = 64240
+        chksum    = 0x8c86
+        urgptr    = 0
+        options   = [('MSS', 1460), ('SAckOK', b''), ('Timestamp', (1881452048, 0)), ('NOP', None), ('WScale', 7)]
+
+###[ Ethernet ]### 
+  dst       = 02:42:92:15:c3:5d
+  src       = 02:42:0a:09:00:05
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x10
+     len       = 60
+     id        = 29617
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x3aa3
+     src       = 10.9.0.5
+     dst       = 128.230.1.100
+     \options   \
+###[ TCP ]### 
+        sport     = 32768
+        dport     = telnet
+        seq       = 2802219454
+        ack       = 0
+        dataofs   = 10
+        reserved  = 0
+        flags     = S
+        window    = 64240
+        chksum    = 0x8c86
+        urgptr    = 0
+        options   = [('MSS', 1460), ('SAckOK', b''), ('Timestamp', (1881453065, 0)), ('NOP', None), ('WScale', 7)]
+
+###[ Ethernet ]### 
+  dst       = 02:42:92:15:c3:5d
+  src       = 02:42:0a:09:00:05
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x10
+     len       = 60
+     id        = 29618
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x3aa2
+     src       = 10.9.0.5
+     dst       = 128.230.1.100
+     \options   \
+###[ TCP ]### 
+        sport     = 32768
+        dport     = telnet
+        seq       = 2802219454
+        ack       = 0
+        dataofs   = 10
+        reserved  = 0
+        flags     = S
+        window    = 64240
+        chksum    = 0x8c86
+        urgptr    = 0
+        options   = [('MSS', 1460), ('SAckOK', b''), ('Timestamp', (1881455076, 0)), ('NOP', None), ('WScale', 7)]
+
